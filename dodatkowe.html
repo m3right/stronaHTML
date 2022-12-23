@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Moje miasto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("chodnik.jpg");
+  background-size: 100% 100%;
+  color: rgb(0, 0, 0);
+}
+
+.header h1 {
+  font-size: 80px;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(3, 1, 12);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgba(245, 209, 48, 0.938);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background-color: rgba(245, 209, 48, 0.938);
+  color: rgb(3, 1, 12);
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: rgba(245, 153, 48, 0.76);
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: rgba(245, 209, 48, 0.938);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(245, 209, 48, 0.938);
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Moje Miasto</h1>
+  <h2>Siemianowice śląskie</h2>
+</div>
+
+<div class="navbar">
+  <a href="strona.html">Strona główna</a>
+  <a href="https://siemianowice.pl/" target="_blank">Strona miasta</a>
+  <a href="Demografia.html">Informacje demograficzne</a>
+  <a href="Video.html">Video o mieście</a>
+  <a href="dodatkowe.html">Info dodatkowe</a>
+  <a href="Formularz.html">Formularz</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>O moim mieście</h2>
+    <font size=5><h5>Herb</h5></font>
+    <img src="Siemianowice.png" alt="Siemianowice" width="150" height="200">
+    <p>Herbem mojego rodzinnego miasta jest rybak. Herb upamiętnia czasy średniowiecza, kiedy miasto to było niewielką osadą dostarczającą ryby i kwiaty na dwór księcia bytomskiego.</p>
+    <b><p>Tak wygląda mapa Siemianowic</p></b>
+    <img src="Mapna.jpg" alt="Mapa" width="300" height="300"><br>
+    <b><p>A tak ratusz:</p></b>
+    <img src="Ratusz.jpg" alt="Ratusz" width="300" height="300">
+  </div>
+  <div class="main">
+    <marquee SCROLLAMOUNT=15><h2>INFORMACJE DODATKOWE</h2></marquee>
+    <font size=6><ins><h5>Najważniejsze zabytki</h5></ins></font>
+    <dl>
+      <dt><b>Willa przemysłowca Wilhelma Fitznera, tzw. Willa Fitznera (ul. Fitznerów 3)</b></dt><br>
+      <dd>Obecnie jedna z placówek Siemianowickiego Centrum Kultury. Wpisana do rejestru zabytków o nr rej. A/235/09 z 31 maja 1995 roku<br>
+      <a href="https://pl.wikipedia.org/wiki/Willa_Fitznera" target="_blank">Link do strony Willi.</a></dd><br>
+      <dt><b>Budynek Łaźni Miejskiej (ul. J. Śniadeckiego 11)</b></dt><br>
+      <dd>Obecnie funkcjonuje w nim Pływalnia Miejska. Kompleks wpisany do rejestru zabytków o nr rej. A/1649/97 z17 listopada 1997 roku,
+        Siedziba Siemianowickiego Centrum Kultury (ul. Niepodległości 45; dawna gospoda Adolfa Geislera)<br>
+      <a href="https://pl.wikipedia.org/wiki/%C5%81a%C5%BAnia_Miejska_w_Siemianowicach_%C5%9Al%C4%85skich" target="_blank">Link do strony Łaźni.</a></dd><br>
+      <dt><b>Cmentarz ewangelicki przy ul. Cmentarnej</b></dt><br>
+      <dd>Wpisany do rejestru zabytków o nr rej. A/649/2020 z 18 maja 2020 roku<br>
+      <a href="https://pl.wikipedia.org/wiki/Cmentarz_ewangelicki_w_Siemianowicach_%C5%9Al%C4%85skich" target="_blank">Link do strony Cmentarza</a></dd><br>
+      <dt><b>Zespół pałacowo-parkowy (ul. Fryderyka Chopina)</b></dt><br>
+      <dd>Jeden z największych pałaców w Polsce (największy na terenie województwa śląskiego). Wpisany do rejestru zabytków o nr rej. A/1289/82 z 19 kwietnia 1982 roku<br>
+      <a href="https://pl.wikipedia.org/wiki/Pa%C5%82ac_w_Siemianowicach_%C5%9Al%C4%85skich" target="_blank">Link do strony Pałacu</a></dd><br>
+    </dl>
+    <font size=6><ins><h5>Prezydent miasta</h5></ins></font>
+    <img src="PREZYDENT-RAFAL-PIECH_wykadrowane-1.jpg" alt="Prezydent" width="240" height="340">
+     <br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2><b>Zapraszamy do nas!</b></h2>
+</div>
+
+</body>
+</html>

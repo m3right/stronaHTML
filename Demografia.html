@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Moje miasto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("chodnik.jpg");
+  background-size: 100% 100%;
+  color: rgb(0, 0, 0);
+}
+
+
+.header h1 {
+  font-size: 80px;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(3, 1, 12);
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgba(245, 209, 48, 0.938);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a:hover {
+  background-color: rgba(245, 209, 48, 0.938);
+  color: rgb(3, 1, 12);
+}
+
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: rgba(245, 153, 48, 0.76);
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: rgba(245, 209, 48, 0.938);
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(245, 209, 48, 0.938);
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Moje Miasto</h1>
+  <h2>Siemianowice śląskie</h2>
+</div>
+
+<div class="navbar">
+  <a href="strona.html">Strona główna</a>
+  <a href="https://siemianowice.pl/" target="_blank">Strona miasta</a>
+  <a href="Demografia.html">Informacje demograficzne</a>
+  <a href="Video.html">Video o mieście</a>
+  <a href="dodatkowe.html">Info dodatkowe</a>
+  <a href="Formularz.html">Formularz</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>O moim mieście</h2>
+    <font size=5><h5>Herb</h5></font>
+    <img src="Siemianowice.png" alt="Siemianowice" width="150" height="200">
+    <p>Herbem mojego rodzinnego miasta jest rybak. Herb upamiętnia czasy średniowiecza, kiedy miasto to było niewielką osadą dostarczającą ryby i kwiaty na dwór księcia bytomskiego.</p>
+    <b><p>Tak wygląda mapa Siemianowic</p></b>
+    <img src="Mapna.jpg" alt="Mapa" width="300" height="300"><br>
+    <b><p>A tak ratusz:</p></b>
+    <img src="Ratusz.jpg" alt="Ratusz" width="300" height="300">
+  </div>
+  <div class="main">
+    <marquee SCROLLAMOUNT=15><h2>DEMOGRAFIA MIASTA</h2></marquee>
+    <ul>
+    <li><b><p>Wzrost liczby ludności</p></b></li>
+    <p>Liczba ludności obszaru obecnego miasta zaczęła gwałtownie wzrastać w związku z rozwojem przemysłowym w XIX wieku. 
+    W 1780 roku w gminie Siemianowice mieszkało 233 osoby, a łącznie wraz z Bańgowem, Bytkowem, Michałkowicacami i Przełajką obszar obecnego miasta był zamieszkały przez 750 osób. 
+    Według spisu powszechnego z 3 grudnia 1867 roku 6866 osób zamieszkiwało gminę Siemianowice. 
+    1 grudnia 1875 roku gminy Siemianowice i Huta Laura były łącznie zamieszkałe przez 11821 osób. 
+    Według spisu powszechnego z 1 grudnia 1871 roku, w Siemianowicach mieszkało 11419 mieszkańców, w tym 5452 kobiet i 5967 mężczyzn. 
+    Wówczas to współczynnik feminizacji wynosił 91 i był niższy niż średni dla całej prowincji śląskiej, wynoszący wówczas 108. 
+    Była to pochodna procesu industrializacji obszaru Siemianowic i Huty Laura[86]. W 1871 roku 88,9% mieszkańców Siemianowic była wyznania katolickiego. 
+    Pod względem narodowościowym w 1910 roku, na obszarze obecnych Siemianowic Śląskich największy odsetek osób posługujących się językiem polskim był w Przełajce (98,9%) i Bańgowie (85,4%). 
+    W Siemianowicach wynosił on wówczas 54,3%, a w Hucie Laura był on najniższy – 39,3%</p>
+    <li><b><p>Czasy okołowojenne</p></b></li>
+            <p>WW 1918 roku Siemianowice Śląskie w dzisiejszych granicach liczyły 38093 mieszkańców, na początku II wojny światowej 54258 osób. 
+              Pod względem narodowościowym, w 1931 roku w Siemianowicach Śląskich 92,3% mieszkańców posługiwało się językiem polskim jako ojczystym, a 7,4% niemieckim.
+              Po II wojnie światowej następował dalszy wzrost liczby ludności miasta, spowodowany dodatnim saldem migracyjnym i przyrostem naturalnym. 
+              W 1950 roku w mieście mieszkało 53,1 tys. mieszkańców, a w 1965 66,1 tys. osób. 
+              Współczynnik feminizacji w 1965 roku wyniósł 98.</p>
+    <li><b><p>Współczesność</p></b></li>
+    <p>W 2001 roku w Siemianowicach Śląskich mieszkało 76,1 tys. osób[92]. 
+      Miasto to wyróżnia się pod względem gęstości zaludnienia, gdyż jest jednym z najgęściej zaludnionych miast województwa śląskiego. 
+      W 2001 roku był na 3. miejscu spośród wszystkich gmin województwa śląskiego. 
+      Podczas Narodowego Spisu Powszechnego 2011 na 70169 mieszkańców Siemianowic Śląskich narodowość polską zadeklarowało 59233 osób (84,4%), śląską 20832 osoby (29,7%), natomiast niemiecką 364 osoby (0,5%).
+      Według stanu z 31 grudnia 2017 roku w Siemianowicach Śląskich mieszkało 62 846 osób. 
+      Gęstość zaludnienia wynosiła wówczas 2 464,5 os./km², co stanowiło wówczas piątą największą gęstość zaludnienia w Polsce spośród miast na prawach powiatu[94]. W tym czasie w mieście mieszkało więcej kobiet aniżeli mężczyzn – odpowiednio 53 i 47% (współczynnik feminizacji był wówczas na poziomie 112). 
+      Według struktury płci i wieku z 2016 roku, spośród osób w wieku 0–9 i 15–39 zaznacza się przewaga liczby mężczyzn nad liczbą kobiet żyjących w Siemianowicach Śląskich, natomiast spośród ludzi w wieku 10–14 i powyżej 40 lat więcej było kobiet aniżeli mężczyzn[96]. W 2017 roku liczbowo dominowały osoby w wieku produkcyjnym (59,22% populacji). 
+      Osób w wieku poprodukcyjnych było wówczas 24,45%, natomiast w przedprodukcyjnym 16,33% mieszkańców.</p>
+      </ul>
+       <br>
+       <center><img src="Piramida_wieku_Siemianowice_Slaskie.png" alt="Siemianowice" width="500" height="300"></center>
+  </div>
+</div>
+
+<div class="footer">
+  <h2><b>Zapraszamy do nas!</b></h2>
+</div>
+
+</body>
+</html>

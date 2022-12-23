@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Moje miasto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("chodnik.jpg");
+  background-size: 100% 100%;
+  color: rgb(0, 0, 0);
+}
+
+
+.header h1 {
+  font-size: 80px;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(3, 1, 12);
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgba(245, 209, 48, 0.938);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a:hover {
+  background-color: rgba(245, 209, 48, 0.938);
+  color: rgb(3, 1, 12);
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: rgba(245, 153, 48, 0.76);
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: rgba(245, 209, 48, 0.938);
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(245, 209, 48, 0.938);
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Moje Miasto</h1>
+  <h2>Siemianowice śląskie</h2>
+</div>
+
+<div class="navbar">
+  <a href="strona.html">Strona główna</a>
+  <a href="https://siemianowice.pl/" target="_blank">Strona miasta</a>
+  <a href="Demografia.html">Informacje demograficzne</a>
+  <a href="Video.html">Video o mieście</a>
+  <a href="dodatkowe.html">Info dodatkowe</a>
+  <a href="Formularz.html">Formularz</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>O moim mieście</h2>
+    <font size=5><h5>Herb</h5></font>
+    <img src="Siemianowice.png" alt="Siemianowice" width="150" height="200">
+    <p>Herbem mojego rodzinnego miasta jest rybak. Herb upamiętnia czasy średniowiecza, kiedy miasto to było niewielką osadą dostarczającą ryby i kwiaty na dwór księcia bytomskiego.</p>
+    <b><p>Tak wygląda mapa Siemianowic</p></b>
+    <img src="Mapna.jpg" alt="Mapa" width="300" height="300"><br>
+    <b><p>A tak ratusz:</p></b>
+    <img src="Ratusz.jpg" alt="Ratusz" width="300" height="300">
+  </div>
+  <div class="main">
+    <marquee SCROLLAMOUNT=15><h2>O SIEMIANOWICACH SŁÓW KILKA</h2></marquee>
+    <font size=5><h5>Krótka historia Siemianowic</h5></font>
+    <ul>
+    <li><b><p>Początki miasta</p></b></li>
+        <p>Początki osad tworzących obecnie Siemianowice Śląskie sięgają czasów średniowiecznych. 
+        Najstarsza wzmianka prawdopodobnie o wsi Simanovici pochodzi z 1253 roku. 
+        Najstarsza wzmianka o Bytkowie pochodzi natomiast z dokumentu biskupa krakowskiego Jana Muskaty z 1298 roku, w którym przeznacza dziesięcinę ze wsi Bytków na uposażenie szpitala w Sławkowie[66]. 
+        Z XIV pochodzą pierwsze wzmianki o Michałkowicach i Przełajce, a w XVI wieku o Bańgowie. Z 1334 roku pochodzi wzmianka o wsi Sancrovicz. 
+        Wsie te stanowiły wówczas zaplecze rolnicze dla Bytomia i niewykluczone, że dostarczały do miasta również rudy żelaza. </p>
+    <li><b><p>Rewolucja przemysłowa</p></b></li>
+            <p>W czasach rewolucji przemysłowej zapoczątkowanej pod koniec XVIII wieku na obszarze obecnych Siemianowic Śląskich zaczęły się rozwijać zakłady przemysłowe. 
+                Wsie na terenie obecnego miasta stały się wówczas zapleczem mieszkaniowym dla gwałtownie rosnącej liczby pracowników. W szczególności duże znaczenie dla rozwoju osad miały inwestycje śląskich rodów. 
+                Prócz inwestycji przemysłowych, inwestowali oni w budowę obiektów użyteczności publicznych, w tym szkół, kościołów czy gmachów użyteczności publicznej. 
+                Duże znaczenie dola rozwoju obecnego obszaru miasta miało powstanie w latach 1833–1835 nowoczesnej huty żelaza „Laura”, która wymagała wykwalifikowanych robotników. 
+                W związku z tym zaczęły przy niej powstawać osiedla patronackie, kamienice mieszczańskie czy też wille dla administracji[.</p>
+    <li><b><p>Rozwój miasta</p></b></li>
+    <p>Wraz z hutą „Laura” powstały nowoczesne kopalnie węgla kamiennego – znane później jako „Siemianowice” i „Michał”, a także mniejsze przedsiębiorstwa przemysłu ciężkiego. 
+        Pierwsza kopalnia węgla kamiennego na obszarze Siemianowic Śląskich powstała na stokach Kołocowej Górki w Lasku Bytkowskim w 1786 roku – była to odkrywkowa kopalnia „Waldgrube” („Leśna”). 
+        Wokół huty wykształciła się nowa, zurbanizowana gmina – Huta Laura (Laurahuta), na której wykształciły się wszelkie niezbędne usługi. 
+        Domy zostały podłączone do wodociągu, a część z nich dodatkowo została skanalizowana. 
+        W latach 1854–1857 powstała przebiegająca przez Bytków, hutę „Laura”, hutę „Jerzy” i dalej do Zawodzia sieć kolei wąskotorowej. 
+        W 1855 roku mistrz kuźniczy Wilhelm Fitzner założył własną kuźnię, rozbudowaną później w Fabrykę Kotłów Fitznera (obecnie „Rosomak”). 
+        19 listopada 1868 roku z michałkowickiej parafii rzymskokatolickiej wydzielono siemianowicką lokalię. 
+        W 1870 roku oddano do użytku dworzec kolejowy Laurahütte przy linii kolei prawoodrzańskiej, łączącej Szopienice Północne z Bytomiem i dalej do Wrocławia. 
+        W 1871 roku powstał w Siemianowicach odrębny urząd pocztowy, Hugo I Henckel von Donnersmarck powołał spółkę akcyjną Vereinigte Königs- und Laurahütte (późniejsze Górnośląskie Zjednoczone Huty Królewska i Laura S.A. Górniczo-Hutnicza) i powstał pierwszy laurahucki wodociąg[74]. 
+        W 1889 roku do Siemianowic i Huty Laura zaczęła docierać energia elektryczna.</p>
+    <li><b><p>Zmiany</p></b></li>
+    <p>Po przemianach gospodarczych zapoczątkowanych w latach 90. XX wieku miasto, w związku z upadkiem przemysłu ciężkiego znalazło się w kryzysie gospodarczym i zaczęło się wyludniać. 
+        Zlikwidowano zakłady wydobywcze i hutę „Jedność”, a w mieście wzrastała fala bezrobocia. 
+        W 1998 roku powołano Centrum Leczenia Oparzeń, a rok później, 24 września 1999 roku wyjechał na powierzchnię ostatni wózek z urobkiem z kopalni „Siemianowice”. 
+        W XXI wieku miasto weszło w etap restrukturyzacji, związany z rozwojem przemysłu, komunikacji, handlu, a także nowych inwestycji w przestrzeni publicznej.</p>
+      </ul>
+    
+                <br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2><b>Zapraszamy do nas!</b></h2>
+</div>
+
+</body>
+</html>
